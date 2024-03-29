@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 90%;
+} 
+#navbar{
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    background-image: url(photo.png/pexels-fabian-reitmeier-707915.jpg);
+    height: 100vh;
+    font-size: 30px;
+    background-size: cover;
+
+}
+#home{
+    border-radius: 20px;
+    font-size: 10px;
+    background-color: orangered;
+    padding: 10px 17px;
+
+}
+#mydiv{
+        position: absolute ;
+        top: 30%;
+        padding-left: 400px;
+        color: beige;
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.font{
+    font-size: 150%;
+}
+
+.btn{
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: orangered;
+    padding: 10px 17px;
+    width: 20%;
+}
+#dive{
+    display: flex;
+    gap: 20px;
+    padding-left: 100px;
+}
+.diveheader{
+    justify-content: center;
+}
+
+
+
+
+@media all and (min-width: 280px) and (max-width: 1024px){
+    #nav{
+        border-radius: 20px;
+        background-color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 90%;
+        /* font-size: x-small; */
+        
+    }
+
+    #photo{
+        height: 20px;
+        width: 50px;
+    }
+    #navbar{
+        padding-right: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-image: url(photo.png/pexels-fabian-reitmeier-707915.jpg);
+        height: 100vh;
+        font-size: smaller;
+        background-size: cover;
+    
+    }
+
+}
